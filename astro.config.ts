@@ -14,7 +14,6 @@ export default defineConfig({
 	output: 'static',
 	trailingSlash: 'always',
 	site: SITE.url,
-	base: '/myblog',
 	integrations: [expressiveCode(), mdx(), sitemap(), pagefindIntegration(), react()],
 	vite: {
 		// Sandpack imports these CommonJS packages as ESM, so Vite must prebundle them for development.
