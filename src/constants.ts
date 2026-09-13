@@ -7,19 +7,19 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Base URL of your site, used in sitemap generation
 	 */
-	url: 'https://astro-theme-minimal-blog.lekoarts.de',
+	url: 'https://hk20250827.github.io',
 	/**
 	 * Site-wide title
 	 */
-	title: 'Minimal Blog',
+	title: 'Cheung\'s Blog',
 	/**
 	 * Used on index page and as a fallback if no title is set
 	 */
-	titleDefault: 'Astro Theme: Minimal Blog',
+	titleDefault: 'Cheung\'s Blog',
 	/**
 	 * Used in meta tags, RSS feed, and other places
 	 */
-	description: 'Minimal Astro blog theme with extensive code syntax highlighting capabilities, focus on typography, and clean design bringing your content to the forefront.',
+	description: 'This is my personal blog, and i try my best to write down my study and feelings.',
 	/**
 	 * Language used in the <html> tag
 	 */
@@ -61,15 +61,8 @@ export const HEADER: Header = {
 	 */
 	external: [
 		{
-			title: 'Bluesky',
-			url: 'https://bsky.app/profile/lekoarts.de',
-			props: {
-				target: '_blank',
-			},
-		},
-		{
-			title: 'Homepage',
-			url: 'https://www.lekoarts.de/?utm_source=astro-theme-minimal-blog',
+			title: 'GitHub',
+			url: 'https://github.com/hk20250827',
 			props: {
 				target: '_blank',
 			},

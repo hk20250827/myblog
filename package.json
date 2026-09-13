@@ -50,5 +50,11 @@
 		"tsx": "^4.23.13",
 		"typescript": "^6",
 		"valid-filename": "^5.0.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"es5-ext",
+			"esbuild"
+		]
 	}
 }
